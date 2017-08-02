@@ -24,10 +24,10 @@ $ [sudo] gem install cocoapods
 $ pod setup
 ```
 
-Add DGActivityIndicatorView to Podfile:
+Add DGActivityIndicatorView to Podfile, specifying the latest commit of this fork:
 
 ``` bash
-pod 'DGActivityIndicatorView'
+pod 'DGActivityIndicatorView', :git => 'https://github.com/bmodderkolk/DGActivityIndicatorView.git', :commit => 'c259a6fe2a979c7a4baeb74697f2eb44b61bb83c'
 ```
 
 Call 'pod install':
